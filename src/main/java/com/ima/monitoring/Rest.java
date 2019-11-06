@@ -271,7 +271,8 @@ public class Rest {
         JTable controllTable = new JTable();
         dtm.setColumnIdentifiers(new Object[]{"SliceID", "DataConsumer", "SlicePartID", "DataSource", "ProbeID", "DataConsumerPort"});
         controllTable.setModel(dtm);
-             
+         
+        
         //////////////// START MONITORING ////////////////
         post("/necos/ima/start_monitoring", new Route() {
             @Override
