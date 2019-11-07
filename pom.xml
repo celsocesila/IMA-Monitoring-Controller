@@ -39,6 +39,7 @@
             <artifactId>resty</artifactId>
             <version>0.3.2</version>
             <scope>compile</scope>
+            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
